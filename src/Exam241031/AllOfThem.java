@@ -1,8 +1,8 @@
-package Practice;
+package Exam241031;
 
 import java.util.Scanner;
 
-public class Exam241031 {
+public class AllOfThem {
     public static void main(String[] args) {
 
         Scanner s=new Scanner(System.in);

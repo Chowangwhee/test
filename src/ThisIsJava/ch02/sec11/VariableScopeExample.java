@@ -1,6 +1,6 @@
-package ThisIsJava;
+package ThisIsJava.ch02.sec11;
 
-public class P69Example {
+public class VariableScopeExample {
     public static void main(String[] args) {
         int v1 = 15;
         if(v1>10)   {

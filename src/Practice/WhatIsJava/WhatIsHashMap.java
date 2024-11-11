@@ -1,4 +1,4 @@
-package ThisIsJava;
+package Practice.WhatIsJava;
 
 import java.util.HashMap;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package ThisIsJava;
+package ThisIsJava.ch07.sec08.exam01;
 class Tire{
     //메소드 선언
     public void roll(){
@@ -28,7 +28,7 @@ class Car{
         tire.roll();
     }
 }
-public class P317Example {
+public class CarExample {
     public static void main(String[] args) {
         //Car 객체 생성
         Car myCar=new Car();

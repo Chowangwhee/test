@@ -1,4 +1,4 @@
-package ThisIsJava;
+package ThisIsJava.ch07;
 
 class A{
     public void method1(){

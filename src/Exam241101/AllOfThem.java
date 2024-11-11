@@ -1,8 +1,8 @@
-package Practice;
+package Exam241101;
 
 import java.util.Scanner;
 
-public class Exam241101 {
+public class AllOfThem {
 
     static int adder(int a, int b) {
         return a + b;

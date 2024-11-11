@@ -1,6 +1,6 @@
-package ThisIsJava;
+package ThisIsJava.ch02.sec08;
 
-public class P60Example {
+public class CastingExample {
     public static void main(String[] args) {
         int var1 = 10;
         byte var2 = (byte)  var1;

@@ -1,4 +1,4 @@
-package ThisIsJava;
+package ThisIsJava.ch04;
 
 public class P140ExamNo3 {
     public static void main(String[] args) {

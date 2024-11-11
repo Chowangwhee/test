@@ -1,4 +1,4 @@
-package Practice;
+package Exam241105;
 
 class Cal {
     int a;
@@ -12,7 +12,7 @@ class Cal {
         return a / b;
     }
 }
-public class Exam241105 {
+public class ExamNo03 {
     public static void main(String[] args) {
 
         int a=Cal.add(10,5); //합
