@@ -1,30 +1,31 @@
+import java.io.*;
 
-class Box<T>{
-    Box<T> next;
-    T t;
-
-    void in(T t){
-        this.t=t;
-    }
-    T out(){
-        return t;
-    }
-}
 public class Main2 {
     public static void main(String[] args) {
 
-        Box<Integer> b=new Box<>();
-        b.in(30);
+        //콘솔창에 문자를 입력해서 입력한 문자를 파일에 저장
 
-        b.next=new Box<Integer>();
-        b.next.in(40);
+        BufferedReader br=null; //입력하기 위한 문자형 입력 스트림
+        PrintWriter pr=null;    //출력하기 위한 문자형 출력 스트림
 
-        b.next.next=new Box<Integer>();
-        b.next.next.in(50);
+        try{
+            InputStreamReader in=new InputStreamReader(System.in);  //ctrl+d 문자열 입력 끝맺음 키
+            br=new BufferedReader(in);
+            //p.799
+            //=BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+            FileWriter fw = new FileWriter("d.txt");
+            //d.txt
+            pr=new PrintWriter(fw);
 
-        Box<Integer> tmp;
-        tmp=b.next;
-        System.out.println(tmp.out());
-
+            String str=null;
+            while ((str=br.readLine())!=null){
+                pr.println(str);
+            }
+            br.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }finally {
+            pr.close();
+        }
     }
 }
